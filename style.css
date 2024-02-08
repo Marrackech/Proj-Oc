@@ -1,0 +1,384 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  padding: 20px;
+}
+
+.position {
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #353535;
+  background-color: #EAEAEA;
+  height: 60px;
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.15);
+  width: 100%;
+}
+
+.position i {
+  margin-right: 10px;
+}
+
+.centered-text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#centered-text span {
+  display: block;
+}
+
+.centered-text--color {
+  color: rgb(53, 53, 53);
+  font-weight: normal;
+}
+
+.centered-text--color2 {
+  color: rgb(53, 53, 53);
+  margin-top: -20px;
+  font-weight: normal;
+}
+
+.centered-text--margin {
+  margin-top: -20px;
+  word-spacing: 10px;
+}
+
+.center-text--space {
+  word-spacing: 5px;
+}
+
+.Text {
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F6F6F6;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+main {
+  background-color: #F6F6F6;
+  height: 100%;
+}
+
+.explorer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 226px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top, #9356DC, #FF79DA);
+  border-radius: 30px;
+}
+
+.explorer a {
+  text-decoration: none;
+  color: white;
+}
+
+.explorer:hover {
+  background: linear-gradient(to top, #FF79DA, #9356DC);
+  opacity: 0.5;
+  transition: 1s;
+}
+
+.margin {
+  margin-right: 40px;
+  margin-left: 40px;
+  margin-top: 80px;
+  padding-top: 80px;
+  padding-bottom: 0px;
+  font-size: larger;
+}
+
+.box {
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(246, 246, 246);
+  margin-bottom: 40px;
+  padding-left: 10px;
+  border-radius: 20px;
+}
+
+.Row :hover {
+  opacity: 0.7;
+}
+.Row :hover i {
+  color: purple;
+  opacity: 1;
+}
+
+.box span {
+  margin: auto;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.box i {
+  margin-left: 50px;
+  font-size: x-large;
+}
+
+.counte {
+  margin-left: -12px;
+  background-color: rgb(147, 86, 220);
+  width: 24px;
+  height: 24px;
+  color: white;
+  padding: 3px;
+  border: 1px solid rgb(147, 86, 220);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-radius: 24px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.Restaurant img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.Restaurant {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.flex-coeur {
+  display: flex;
+  align-items: center;
+  gap: 300px;
+}
+
+.flex-coeur i {
+  display: flex;
+  font-size: 29px;
+  border-width: 10px;
+}
+
+.flex-coeurA {
+  display: flex;
+  align-items: center;
+  gap: 342px;
+}
+
+.flex-coeurA i {
+  display: flex;
+  font-size: 29px;
+}
+
+.coeur i {
+  position: absolute;
+  transform: translate(-50%);
+}
+
+.cor-full {
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.card:hover .cor-full {
+  opacity: 1;
+  transform: translate(-80%) scale(1.3);
+  width: 1px;
+}
+
+.icolor {
+  background: linear-gradient(to top, #9356DC, #FF79DA);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.card {
+  margin-top: -25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  background-color: white;
+  margin-bottom: 20px;
+  box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.15);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  display: flex;
+}
+
+.image-content {
+  position: relative;
+}
+
+.nouveau {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 135, 102);
+  background-color: rgb(153, 226, 208);
+  width: 100px;
+  height: 29px;
+  position: absolute;
+  margin-left: 350px;
+  margin-top: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+}
+
+footer {
+  background-color: #353535;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+.footerR {
+  display: flex;
+  flex-direction: column;
+}
+
+footer h1 {
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 200%;
+  color: white;
+  margin-bottom: 40px;
+  font-family: "Shrikhand", serif;
+}
+
+footer i {
+  margin-right: 15px;
+  color: white;
+}
+
+footer a {
+  color: white;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: large;
+}
+
+@media screen and (min-width: 1024px) {
+  .centered-text {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .centered-text--margin {
+    margin-top: 40px;
+    font-size: 400%;
+  }
+  .centered-text--color2 {
+    margin-top: 20px;
+  }
+  .center-text--space {
+    word-spacing: 5px;
+    font-size: 200%;
+  }
+  .margin {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 220px;
+  }
+  .Row {
+    display: flex;
+    gap: 50px;
+  }
+  .box {
+    padding-right: 80px;
+  }
+  .box span {
+    margin: auto;
+    font-weight: bold;
+    font-size: small;
+    margin-left: 40px;
+  }
+  .box i {
+    margin-left: 20px;
+  }
+  .Restaurant {
+    margin-left: 190px;
+    margin-right: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .Restaurant img {
+    width: 498px;
+    height: 231px;
+  }
+  .card {
+    display: flex;
+    margin-top: -5px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+  .nouveau {
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 20px;
+  }
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    padding-left: 200px;
+    height: 120px;
+  }
+  .footerR {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  #footer {
+    position: absolute;
+    right: 30px;
+  }
+  footer a {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-weight: normal;
+  }
+}/*# sourceMappingURL=style.css.map */
