@@ -61,15 +61,22 @@ header {
 }
 
 .cor-full {
-  color: #e61e8c;
   opacity: 0;
-  transition: all 3s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
-:hover .cor-full {
+section :hover .cor-full {
   opacity: 1;
   transform: translate(50%) scale(1.1);
   width: 1px;
+}
+
+.icolor {
+  margin-top: -2px;
+  background: linear-gradient(to top, #9356DC, #FF79DA);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 section {
