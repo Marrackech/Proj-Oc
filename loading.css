@@ -31,7 +31,7 @@ body i {
   border: 3px solid #a7a5a5;
   border-top: 3px solid #353535;
   -webkit-animation: ani 4s linear infinite;
-  animation: ani 4s linear infinite;
+          animation: ani 4s linear infinite;
   background-color: #353535;
 }
 
@@ -42,7 +42,7 @@ body i {
   border: 3px solid rgb(172, 170, 167);
   border-top: 3px solid rgb(61, 61, 61);
   -webkit-animation: ani 5s linear infinite;
-  animation: ani 5s linear infinite;
+          animation: ani 5s linear infinite;
   background-color: #a7a5a5;
 }
 
@@ -54,6 +54,7 @@ body i {
     transform: rotate(360deg);
   }
 }
+
 @keyframes ani {
   0% {
     transform: rotate(0deg);
@@ -86,7 +87,7 @@ body i {
 
 #flip div:first-child {
   -webkit-animation: show 300s linear infinite;
-  animation: show 300s linear infinite;
+          animation: show 300s linear infinite;
 }
 
 #flip div:first-child {
@@ -118,6 +119,7 @@ body i {
     margin-top: -270px;
   }
 }
+
 @keyframes show {
   0% {
     margin-top: -5px;
@@ -149,13 +151,13 @@ body i {
 }
 
 .loader {
-  border: 8px solid #f3f3f3; /* Light grey */
-  border-top: 8px solid #3498db; /* Blue */
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #3498db;
   border-radius: 50%;
   width: 50px;
   height: 50px;
   -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite;
 }
 
 @-webkit-keyframes spin {
@@ -166,6 +168,7 @@ body i {
     transform: rotate(360deg);
   }
 }
+
 @keyframes spin {
   0% {
     transform: rotate(0deg);
@@ -182,4 +185,4 @@ body i {
   body i {
     margin-left: 300px;
   }
-} /*# sourceMappingURL=loading.css.map *//*# sourceMappingURL=loading.css.map */
+}/*# sourceMappingURL=loading.css.map */

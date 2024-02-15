@@ -209,11 +209,12 @@ main {
 
 .card:hover .cor-full {
   opacity: 1;
-  transform: translate(-80%) scale(1.3);
+  transform: translate(-80%) scale(1.1);
   width: 1px;
 }
 
 .icolor {
+  margin-top: -2px;
   background: linear-gradient(to top, #9356DC, #FF79DA);
   background-clip: text;
   -webkit-background-clip: text;
@@ -334,7 +335,7 @@ footer a {
   }
   .Restaurant {
     margin-left: 190px;
-    margin-right: 100px;
+    margin-right: 160px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -362,23 +363,39 @@ footer a {
     display: flex;
     flex-direction: row;
     align-items: end;
-    padding-left: 200px;
+    padding-left: 300px;
     height: 120px;
+    margin-top: 10px;
+  }
+  footer i {
+    margin-right: 10px;
   }
   .footerR {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-left: 170px;
   }
   #footer {
     position: absolute;
-    right: 30px;
+    right: 10px;
+    font-size: 25px;
   }
   footer a {
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: -10px;
     margin-bottom: 20px;
     font-weight: normal;
+  }
+  .footeri {
+    display: flex;
+  }
+  .footersi {
+    display: flex;
+    margin-left: 50px;
+    font-weight: normal;
+  }
+  .footersil {
+    margin-right: 0px;
   }
 }/*# sourceMappingURL=style.css.map */

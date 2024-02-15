@@ -13,6 +13,7 @@
     padding:0;
     box-sizing:border-box;
     font-family:'Roboto' , sans-serif;
+   
   
 }
 body {
@@ -21,6 +22,7 @@ body {
     height:100vh;
     background-color:#F6F6F6 ;
 width:100vh;
+
 
 }
 body i{
@@ -62,7 +64,7 @@ body i{
     text-transform: uppercase;
     font-size:36px;
     font-weight:bold;
-    padding-top:fixed;
+  
     width:100%;
     bottom:20%;
     display:block;
@@ -114,8 +116,8 @@ body i{
     z-index: 9999;
 }
 .loader {
-    border: 8px solid #f3f3f3; /* Light grey */
-    border-top: 8px solid #3498db; /* Blue */
+    border: 8px solid #f3f3f3; 
+    border-top: 8px solid #3498db; 
     border-radius: 50%;
     width: 50px;
     height: 50px;
