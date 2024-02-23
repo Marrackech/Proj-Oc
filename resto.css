@@ -39,14 +39,14 @@ header {
   height: 2px;
 }
 
-.coeur {
+.coeur1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-right: 30px;
 }
 
-.coeur i {
+.coeur1 i {
   font-size: 200%;
   margin-left: -15px;
   margin-top: -14px;
@@ -54,7 +54,7 @@ header {
   transform: translate(-50%);
 }
 
-.coeur h1 {
+.coeur1 h1 {
   display: flex;
   font-family: "Shrikhand", serif;
   font-size: 280%;
@@ -65,7 +65,7 @@ header {
   transition: all 1s ease-in-out;
 }
 
-section :hover .cor-full {
+.coeur:hover .cor-full {
   opacity: 1;
   transform: translate(50%) scale(1.1);
   width: 1px;
@@ -127,11 +127,17 @@ main label {
   height: 84px;
 }
 
+.card p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
 .flex-row {
   display: flex;
 }
 
-.flex-row:hover a + .check {
+.card:hover a + .check {
   display: block;
 }
 

@@ -120,6 +120,7 @@ word-spacing:10px;
  main{
     background-color: $bgcolormain;
     height:100%;
+    padding-bottom:100px;
 }
 .explorer{
   @include button();
@@ -193,53 +194,77 @@ word-spacing:10px;
 .flex-coeur{
     display:flex;
     align-items: center;
-   gap:300px;
+    
+ 
+  
 }
 .flex-coeur i{
-    display:flex;
-    
    font-size:29px;
    border-width:10px;
 
 }
+
 .flex-coeurA{
     display:flex;
-    align-items: center;
- gap:342px;
+   align-items: center;
+  
+
 }
 .flex-coeurA i{
-    display:flex;   
+   
     font-size:29px;
+ 
 
 }
-.coeur i{
+.coeur{
     position:absolute;
-    transform: translate(-50%);
-}
 
+display:flex;
+}
+.coeur{
+position: absolute;
+right:10%;
+display: flex;
+}
+.coeur1{
+position: absolute;
+right:10%;
+display: flex;
+}
 .cor-full{
 
 opacity: 0;
 transition:all 1s ease-in-out;
-}
-.card:hover .cor-full{
-    opacity:1;
-    transform: translate(-80%) scale(1.1);
-width:1px;
+position:absolute;
+right:0;
+
+
 }
 
+.coeur:hover .cor-full{
+    opacity:1;
+    transform: translate(-0%) scale(1.1);
+
+
+
+}
+.coeur1:hover .cor-full{
+    opacity:1;
+    transform: translate(-0%) scale(1.1);
+}
 .icolor{
     margin-top:-2px;
     background:linear-gradient(to top, #9356DC, #FF79DA);
     background-clip:text;
     -webkit-background-clip:text ;
    color:transparent;
+   
 }
 
 .card{
     margin-top:-25px;
-    padding-top:15px;
-    padding-bottom:15px;
+   padding-top: 20px;
+    padding-bottom:5px;
     padding-left:10px;
     background-color: white;
    margin-bottom:20px;
@@ -263,7 +288,7 @@ width:1px;
     width:100px;
     height:29px;
    position:absolute;
-margin-left:350px;
+right:40px;
 margin-top:20px;
   
   
@@ -272,8 +297,13 @@ margin-top:20px;
     display:flex;
     flex-direction:column;
     color:rgba(0, 0, 0, 1);
-  
 
+}
+.column h3{
+    margin-bottom:0px;
+}
+.column p{
+    margin-top:10px;
 }
 footer{
     background-color: 
@@ -281,7 +311,7 @@ footer{
  
     display:flex;
     flex-direction: column;
-    margin-top:40px;
+    margin-top:-50px;
    padding-top:30px;
    padding-bottom:30px;
    padding-left:40px;
@@ -369,12 +399,17 @@ justify-content: space-between;
         width:498px;
         height:231px;
     }
-    
+    .column h3{
+        padding-top:0px;
+    }
 .card{
    display:flex;
+
+   padding-top:0px;
    margin-top:-5px;
-    padding-bottom:15px;
-    padding-left:10px;
+
+width:489px;
+
    margin-bottom:30px;
   background-color:white; 
     border-bottom-left-radius:20px ;
@@ -385,13 +420,50 @@ justify-content: space-between;
 margin-left:350px;
 margin-top:20px;
 }
+.coeur{
+    position:relative;
+    left:140%;
+display:flex;
+align-items: center;
+
+
+}
+.coeur1{
+    position:relative;
+    left:200%;
+display:flex;
+align-items: center;
+
+   
+}
+
+.cor-full{
+
+opacity: 0;
+transition:all 1s ease-in-out;
+
+
+}
+
+.flex-coeurA{
+    display:flex;
+    align-items: center;
+position: relative;
+
+  
+}
+.flex-coeur{
+    display:flex;
+    align-items: center;
+
+}
     footer{
         display:flex;
         flex-direction: row;
         align-items: end;
        padding-left:300px;
        height:120px;
-       margin-top:10px;
+       margin-top:-80px;
     }
     footer i{
         margin-right:10px;
@@ -426,4 +498,6 @@ margin-top:20px;
 .footersil{
     margin-right:0px;
 }
+
+
 }

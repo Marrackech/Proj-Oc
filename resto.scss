@@ -73,18 +73,18 @@ header{
     width:40px;
     height:2px;
 }
-.coeur{
+.coeur1{
     @include flexrow();
   margin-right:30px;
 }
-.coeur i{
+.coeur1 i{
     font-size:200%;
     margin-left:-15px;
     margin-top:-14px;
     position:absolute;
     transform: translate(-50%);
 }
-.coeur h1{
+.coeur1 h1{
     display:flex;
     font-family:$font-family;
     font-size:280%;
@@ -94,7 +94,7 @@ header{
 opacity: 0;
 transition:all 1s ease-in-out;
 }
-section :hover .cor-full{
+.coeur:hover .cor-full{
     opacity:1;
     transform: translate(50%) scale(1.1);
 width:1px;
@@ -143,14 +143,19 @@ main label{
         margin-right:20px;
        height:84px;
     }
-     
+     .card p{
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+     }
+    
     
        .flex-row{
     display:flex;
  
 }
 
-.flex-row:hover a + .check{
+.card:hover a + .check{
    display:block;
   
 
